@@ -1,15 +1,15 @@
 import logo from '../../logo.svg';
-import './Header.css';
+import style from './Header.module.css';
 
 
 function Header(){
     return (
-    <header className='main-header'>
-          <img className='logo' scr={logo} alt="Logo"/>
-          <nav className='main-nav'>
-            <a className='link' href='/'>Home</a>
-            <a className='link' href='/'>About</a>
-            <a className='link' href='/'>Contact</a>
+    <header className={style.mainHeader + ' red'}>
+          <img className={style.logo} scr={logo} alt="Logo"/>
+          <nav className={style.mainNav} >
+            <a className={style.link} href='/'>Home</a>
+            <a className={style.link} href='/'>About</a>
+            <a className={style.link} href='/'>Contact</a>
            </nav>
         </header>)
 }
