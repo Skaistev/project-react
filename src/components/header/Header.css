@@ -1,0 +1,20 @@
+.main-header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid #ccc;
+}
+
+.logo {
+    height: 3rem;
+}
+
+.main-nav {
+    display: flex;
+    gap: 1rem;
+}
+.link {
+    font-size: 2rem;
+    text-decoration: none;
+}
